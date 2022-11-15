@@ -26,4 +26,12 @@ public class Cargraescenas : MonoBehaviour
     {
         SceneManager.LoadScene("Escenaimagen");
     }
+    public void cargarEscenanasusma()
+    {
+        SceneManager.LoadScene("Escenasumar");
+    }
+    public void cargarEscenanamucica()
+    {
+        SceneManager.LoadScene("Escenaaudio");
+    }
 }
