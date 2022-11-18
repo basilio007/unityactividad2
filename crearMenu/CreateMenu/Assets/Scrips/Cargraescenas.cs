@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Cargraescenas : MonoBehaviour
 {
+   
+
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -33,5 +35,21 @@ public class Cargraescenas : MonoBehaviour
     public void cargarEscenanamucica()
     {
         SceneManager.LoadScene("Escenaaudio");
+    }
+    public void LoadMenuEscen()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void AddLoadMenuEscen()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void PicLoadMenuEscen()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+    public void musicLoadMenuEscen()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
