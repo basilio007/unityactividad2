@@ -52,4 +52,8 @@ public class Cargraescenas : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+    public void cerraraplicacion()
+    {
+        Application.Quit();
+    }
 }
